@@ -1,0 +1,8 @@
+<ul *ngFor="let hero of herosServiceData">
+   <li class="container-hero" (click)="heroDataMethod(hero)">{{hero.user | uppercase | slice:0.5}}</li>
+</ul>
+<form>
+    <div>
+        <input type="text">
+    </div>
+</form>
